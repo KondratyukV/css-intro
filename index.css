@@ -1,0 +1,37 @@
+h1{
+    color:red;
+}
+p{
+    color:brown;
+}
+#select{
+    border:2px solid blue;
+    position: sticky;
+    top:0%;
+    right: 0%;
+    /* margin-top: -50px; */
+
+}
+.underline{
+    text-decoration: underline;
+}
+p:hover{
+    color:aqua;
+}
+p::first-letter{
+    font-size: 2rem;
+}
+
+/* p{
+    display: inline;
+} */
+p{
+    margin: 10px;
+    padding: 20px;
+}
+body{
+    border: 2px solid black;
+    max-width:400px;
+    margin: auto;
+    height: 2000px;
+}
